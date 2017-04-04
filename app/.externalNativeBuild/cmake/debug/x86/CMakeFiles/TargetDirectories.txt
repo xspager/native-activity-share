@@ -1,0 +1,4 @@
+/Users/dlemos/StudioProjects/native-activity/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/edit_cache.dir
+/Users/dlemos/StudioProjects/native-activity/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+/Users/dlemos/StudioProjects/native-activity/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/native-activity.dir
+/Users/dlemos/StudioProjects/native-activity/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/app-glue.dir

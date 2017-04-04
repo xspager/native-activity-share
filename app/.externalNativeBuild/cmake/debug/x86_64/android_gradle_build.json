@@ -1,0 +1,66 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/dlemos/StudioProjects/native-activity/app/src/main/cpp/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/dlemos/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/dlemos/StudioProjects/native-activity/app/.externalNativeBuild/cmake/debug/x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"app-glue-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "app-glue",
+			"buildCommand" : "/Users/dlemos/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/dlemos/StudioProjects/native-activity/app/.externalNativeBuild/cmake/debug/x86_64 --target app-glue",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/dlemos/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/dlemos/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64   -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/dlemos/Library/Android/sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c",
+					"workingDirectory" : "/Users/dlemos/StudioProjects/native-activity/app/.externalNativeBuild/cmake/debug/x86_64"
+				}
+			],
+			"output" : "/Users/dlemos/StudioProjects/native-activity/app/.externalNativeBuild/cmake/debug/x86_64/libapp-glue.a",
+			"toolchain" : "17200965549348801543"
+		},
+		"native-activity-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "native-activity",
+			"buildCommand" : "/Users/dlemos/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/dlemos/StudioProjects/native-activity/app/.externalNativeBuild/cmake/debug/x86_64 --target native-activity",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/dlemos/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/dlemos/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64  -Dnative_activity_EXPORTS -I/Users/dlemos/Library/Android/sdk/ndk-bundle/sources/android/native_app_glue -isystem /Users/dlemos/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/dlemos/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/dlemos/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/dlemos/StudioProjects/native-activity/app/src/main/cpp/main.cpp",
+					"workingDirectory" : "/Users/dlemos/StudioProjects/native-activity/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/dlemos/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/dlemos/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64  -Dnative_activity_EXPORTS -I/Users/dlemos/Library/Android/sdk/ndk-bundle/sources/android/native_app_glue -isystem /Users/dlemos/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/dlemos/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/dlemos/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/dlemos/StudioProjects/native-activity/app/src/main/cpp/Helper.cpp",
+					"workingDirectory" : "/Users/dlemos/StudioProjects/native-activity/app/.externalNativeBuild/cmake/debug/x86_64"
+				}
+			],
+			"output" : "/Users/dlemos/StudioProjects/native-activity/app/build/intermediates/cmake/debug/obj/x86_64/libnative-activity.so",
+			"toolchain" : "17200965549348801543"
+		}
+	},
+	"toolchains" : 
+	{
+		"17200965549348801543" : 
+		{
+			"cCompilerExecutable" : "/Users/dlemos/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/dlemos/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
